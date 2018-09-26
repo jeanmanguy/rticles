@@ -56,6 +56,7 @@ acknowledgements: |
   Please include your acknowledgments here, set in a single paragraph. Please do not include any acknowledgments in the Supporting Information, or anywhere else in the manuscript.
 
 bibliography: sample.bib
+link-citations: yes
 
 ## change to true to add optional line numbering
 lineno: false

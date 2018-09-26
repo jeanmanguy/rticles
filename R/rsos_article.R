@@ -28,9 +28,9 @@ rsos_article <- function(
   args <- c(
     "--template", template,
     "--pdf-engine", "xelatex",
+    "--csl", "rsos.csl",
     pandoc_variable_arg("documentclass", "article"),
     pandoc_args,
-    "--natbib",
     includes_to_pandoc_args(includes)
   )
 
